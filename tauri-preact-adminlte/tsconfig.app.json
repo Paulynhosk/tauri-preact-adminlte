@@ -9,7 +9,10 @@
     "skipLibCheck": true,
     "paths": {
       "react": ["./node_modules/preact/compat/"],
-      "react-dom": ["./node_modules/preact/compat/"]
+      "react-dom": ["./node_modules/preact/compat/"],
+      "@public/*": ["./public/*"],
+      "@dist/*": ["./src/assets/dist/*", "./public/dist/*"],
+      "@assets/*": ["./src/assets/dist/*"]
     },
 
     /* Bundler mode */
